@@ -7,7 +7,7 @@ class Test{
 
 Test::macro('test',function ($a){
     return $a;
-},false);
+},true);
 
 Test::macro('demo',function ($a){
     return $a;
